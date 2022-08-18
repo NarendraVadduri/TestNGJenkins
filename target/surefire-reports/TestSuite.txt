@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 43.395 s <<< FAILURE! - in TestSuite
+testCases.NewTest1.loginTest  Time elapsed: 36.583 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : DataTables warning: table id=bestsellers-byquantity-grid - Ajax error. For more information about this error, please see http://datatables.net/tn/7}
+  (Session info: MicrosoftEdge=104.0.1293.47): DataTables warning: table id=bestsellers-byquantity-grid - Ajax error. For more information about this error, please see http://datatables.net/tn/7
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLI-LAP-169', ip: '172.16.3.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.47, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:65136}, msedge: {msedgedriverVersion: 104.0.1293.47 (246533a39fec..., userDataDir: C:\Users\Narendra\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bcd9ce0bfeb6312035cae22b07f6ad4
+	at testCases.NewTest1.loginTest(NewTest1.java:47)
+
