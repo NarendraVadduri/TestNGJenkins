@@ -35,7 +35,8 @@ public class ExtentReporting extends TestListenerAdapter
 	{
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); // for time stamp
 	//	System.out.println(timeStamp);
-		String repName = "Test-Report-"+timeStamp+".html";
+		String repName = "Test-Report-"+".html";
+	//	String repName = "Test-Report-"+timeStamp+".html";
 	//	System.out.println(repName);
 		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"\\test-output\\"+repName); //specify the report location
 		System.out.println(System.getProperty("user.dir")+"\\test-output\\"+repName);
